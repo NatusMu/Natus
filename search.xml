@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+    
+    <entry>
+      <title><![CDATA[一些小点]]></title>
+      <url>%2F2017%2F03%2F25%2F%E4%BA%8C.%E4%B8%80%E4%BA%9B%E5%B0%8F%E7%82%B9%2F</url>
+      <content type="text"><![CDATA[二.一些小点1.文本输入框 文本输入框 用户不填写输入框就无法提交表单required属性在Safari浏览器不起作用 2.单复选按钮 radio 单选按钮checkbox 复选按钮 3.div元素 division(层)元素,是一个盛装其他元素的通用容易可以用CSS的继承关系把div上的CSS传递给它的所有子元素 4.id属性id属性是唯一的,浏览器不强制唯一,不要给一个以上的元素设置向相同的id属性注意：在你的 style 元素内部，定义类选择器必须添加 . 为前缀，定义ID选择器必须添加 # 为前缀。 5.布局元素 padding(内边距)、margin(外边距)、border(边框) CSS 允许你使用 padding-top、padding-right、padding-bottom 和 padding-left来控制元素上右下左四个方向的 padding。 CSS 允许你使用 margin-top、margin-right、margin-bottom 和 margin-left 来控制元素上右下左四个方向的 margin。 6.CSS body颜色代码 000000 #FFFFFF #FF0000 7.JavaScript字符串的不可变性 var myStr=”Bob”;myStr[0]=”J”;myStr不变想要改变myStr的值,只能对它进行重新赋值 8. pop shift unshift函数 移除数组元素 9 JavaScript的数据类型 原始类型（包含数字、字符串和bool） 和 对象类型（是属性的集合 每个属性由”名/值对” 组成）两个特殊的原始值:null 和 undefinedjavascript中所有数字均用浮点数值表示]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Emmet]]></title>
+      <url>%2F2017%2F03%2F24%2FEmmet%20%E6%95%99%E7%A8%8B%2F</url>
+      <content type="text"><![CDATA[Emmet 教程Emmet教程]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[简单的命令行入门]]></title>
+      <url>%2F2017%2F03%2F24%2F%E7%AE%80%E5%8D%95%E7%9A%84%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%85%A5%E9%97%A8%2F</url>
+      <content type="text"><![CDATA[Git 全局设置: git config –global user.name “Natus”git config –global user.email “937950943@qq.com”创建 git 仓库: mkdir mblogcd mbloggit inittouch README.mdgit add README.mdgit commit -m “first commit”git remote add origin git@git.oschina.net:Natus/mblog.gitgit push -u origin master已有项目? cd existing_git_repogit remote add origin git@git.oschina.net:Natus/mblog.gitgit push -u origin master 2.Git全局设置git config –globaluser.name “user.name”git config –global user.email “user.email”3.git init //初始化一个git 仓库 touch README.md //创建帮助文件 git add README.md //添加文件 git commit -m “注释内容” // 添加注释 git remote add origin https://git.oschina.net/username/cccc.git 你的远程仓库地址 // 和远程仓库进行关联 git push -u origin master //上传仓库到码云 注意:刷新页面 后,如果是只上传了README文件,需要执行如下操作:a. git add . //添加工程目录下所有文件 (add 和 “.” 之间有空格)b. git commit -m “添加注释信息”c. git push -u origin master //推送要上传的文件]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>%2F2017%2F03%2F23%2Fhello-world%2F</url>
+      <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[简单]]></title>
+      <url>%2F2017%2F03%2F17%2F%E7%AE%80%E5%8D%95%2F</url>
+      <content type="text"><![CDATA[#一.界面语义化 WebKit 1. header元素定义文档的界面组合,通常是一些引导和导航信息12345678&lt;header&gt; &lt;h1&gt;11111&lt;/h1&gt; &lt;p&gt;123123&lt;/p&gt;&lt;/header&gt;&lt;div class = &quot;header&quot;&gt; &lt;h1&gt;11111&lt;/h1&gt; &lt;p&gt;123123&lt;/p&gt;&lt;/div&gt; 2.footer 元素定义文档或章节的末尾部分,通常包含一些章节的基本信息,如作者信息、相关链接及版权信息。3.nav 元素定义用来构建导航,显示导航链接。例如在页脚显示一个站点的导航链接12345678&lt;footer&gt; ＜nav＞ &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;/privacy.html&quot;&gt;隐私信息&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;/copyright.html&quot;&gt;版权信息&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/nav&gt;&lt;/footer&gt; 4.aside 元素定义一个界面的区域,用来表示包含和界面相关的主要内容,主要是装载非正文类的内容。 5.article 元素表示文档、界面,用来显示一块独立的文章内容,如博客、新闻等。article标签是可以相互嵌套的。 6.section 元素定义为文档中的节,比如章节、页眉、页脚或文档中的其他部分 7 hgroup 定义为对网页或区段的标题元素进行组合,通常用h1~h6进行分组 更多audio:定义音频内容canvas:定义画布功能command:定义一个命令按钮datalist:定义一个下拉列表details:定义一个元素的详细内容dialog:定义一个对话框keygen:定义表单里一个声称的键值mark:定义有标记的文本output:定义一些输出类型progress:定义任务的过程source:定义媒体资源video:定义一个视频内容]]></content>
+    </entry>
+
+    
+  
+  
+</search>
