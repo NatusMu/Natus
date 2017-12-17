@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Natus</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://natus.info/"/>
+  <updated>2017-12-17T11:19:52.688Z</updated>
+  <id>http://natus.info/</id>
+  
+  <author>
+    <name>Hm.</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://natus.info/2017/12/17/test/"/>
+    <id>http://natus.info/2017/12/17/test/</id>
+    <published>2017-12-17T11:19:52.000Z</published>
+    <updated>2017-12-17T11:19:52.688Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一些小点</title>
+    <link href="http://natus.info/2017/03/25/%E4%BA%8C.%E4%B8%80%E4%BA%9B%E5%B0%8F%E7%82%B9/"/>
+    <id>http://natus.info/2017/03/25/二.一些小点/</id>
+    <published>2017-03-25T08:14:14.000Z</published>
+    <updated>2017-03-29T03:42:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="二-一些小点"><a href="#二-一些小点" class="headerlink" title="二.一些小点"></a>二.一些小点</h1><h2 id="1-文本输入框"><a href="#1-文本输入框" class="headerlink" title="1.文本输入框"></a>1.文本输入框</h2><blockquote><p>文本输入框</p><p><input type="text" required placeholder="你所想要输入的文本框"><br>用户不填写输入框就无法提交表单<br>required属性在Safari浏览器不起作用</p></blockquote><h2 id="2-单复选按钮"><a href="#2-单复选按钮" class="headerlink" title="2.单复选按钮"></a>2.单复选按钮</h2><blockquote><p>radio 单选按钮<br>checkbox 复选按钮</p></blockquote><h2 id="3-div元素"><a href="#3-div元素" class="headerlink" title="3.div元素"></a>3.div元素</h2><blockquote><p>division(层)元素,是一个盛装其他元素的通用容易<br>可以用CSS的继承关系把div上的CSS传递给它的所有子元素</p></blockquote><h2 id="4-id属性"><a href="#4-id属性" class="headerlink" title="4.id属性"></a>4.id属性</h2><p>id属性是唯一的,浏览器不强制唯一,不要给一个以上的元素设置向相同的id属性<br><strong>注意：在你的 style 元素内部，定义类选择器必须添加 . 为前缀，定义ID选择器必须添加 # 为前缀。</strong></p><h2 id="5-布局元素"><a href="#5-布局元素" class="headerlink" title="5.布局元素"></a>5.布局元素</h2><blockquote><p>padding(内边距)、margin(外边距)、border(边框)</p><p>CSS 允许你使用 padding-top、padding-right、padding-bottom 和 padding-left来控制元素上右下左四个方向的 padding。</p><p>CSS 允许你使用 margin-top、margin-right、margin-bottom 和 margin-left 来控制元素上右下左四个方向的 margin。</p></blockquote><h2 id="6-CSS-body颜色代码"><a href="#6-CSS-body颜色代码" class="headerlink" title="6.CSS body颜色代码"></a>6.CSS body颜色代码</h2><blockquote><p>000000 #FFFFFF #FF0000</p></blockquote><h2 id="7-JavaScript字符串的不可变性"><a href="#7-JavaScript字符串的不可变性" class="headerlink" title="7.JavaScript字符串的不可变性"></a>7.JavaScript字符串的不可变性</h2><blockquote><p>var myStr=”Bob”;<br>myStr[0]=”J”;<br>myStr不变<br>想要改变myStr的值,只能对它进行重新赋值</p></blockquote><h2 id="8-pop-shift-unshift函数"><a href="#8-pop-shift-unshift函数" class="headerlink" title="8. pop shift unshift函数"></a>8. pop shift unshift函数</h2><blockquote><p>移除数组元素</p></blockquote><h3 id="9-JavaScript的数据类型"><a href="#9-JavaScript的数据类型" class="headerlink" title="9 JavaScript的数据类型"></a>9 JavaScript的数据类型</h3><blockquote><p>原始类型（包含数字、字符串和bool） 和 对象类型（是属性的集合 每个属性由”名/值对” 组成）<br>两个特殊的原始值:null 和 undefined<br>javascript中所有数字均用浮点数值表示</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;二-一些小点&quot;&gt;&lt;a href=&quot;#二-一些小点&quot; class=&quot;headerlink&quot; title=&quot;二.一些小点&quot;&gt;&lt;/a&gt;二.一些小点&lt;/h1&gt;&lt;h2 id=&quot;1-文本输入框&quot;&gt;&lt;a href=&quot;#1-文本输入框&quot; class=&quot;headerlink&quot; ti
+      
+    
+    </summary>
+    
+      <category term="Java" scheme="http://natus.info/categories/Java/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Emmet</title>
+    <link href="http://natus.info/2017/03/24/Emmet%20%E6%95%99%E7%A8%8B/"/>
+    <id>http://natus.info/2017/03/24/Emmet 教程/</id>
+    <published>2017-03-24T08:16:00.000Z</published>
+    <updated>2017-03-24T08:48:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Emmet-教程"><a href="#Emmet-教程" class="headerlink" title="Emmet 教程"></a>Emmet 教程</h1><p><a href="http://www.iteye.com/news/27580" target="_blank" rel="external">Emmet教程</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Emmet-教程&quot;&gt;&lt;a href=&quot;#Emmet-教程&quot; class=&quot;headerlink&quot; title=&quot;Emmet 教程&quot;&gt;&lt;/a&gt;Emmet 教程&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://www.iteye.com/news/27580&quot; targ
+      
+    
+    </summary>
+    
+    
+      <category term="Emmet" scheme="http://natus.info/tags/Emmet/"/>
+    
+      <category term="JavaScript" scheme="http://natus.info/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简单的命令行入门</title>
+    <link href="http://natus.info/2017/03/24/%E7%AE%80%E5%8D%95%E7%9A%84%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%85%A5%E9%97%A8/"/>
+    <id>http://natus.info/2017/03/24/简单的命令行入门/</id>
+    <published>2017-03-24T06:02:50.000Z</published>
+    <updated>2017-03-24T08:18:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Git 全局设置:</p><p>git config –global user.name “Natus”<br>git config –global user.email “937950943@qq.com”<br>创建 git 仓库:</p><p>mkdir mblog<br>cd mblog<br>git init<br>touch README.md<br>git add README.md<br>git commit -m “first commit”<br>git remote add origin git@git.oschina.net:Natus/mblog.git<br>git push -u origin master<br>已有项目?</p><p>cd existing_git_repo<br>git remote add origin git@git.oschina.net:Natus/mblog.git<br>git push -u origin master</p><p>2.Git全局设置<br>git config –globaluser.name “user.name”<br>git config –global user.email “user.email”<br>3.git init //初始化一个git 仓库</p><ol><li>touch README.md //创建帮助文件</li><li>git add README.md //添加文件</li><li><p>git commit -m “注释内容” // 添加注释</p></li><li><p>git remote add origin <a href="https://git.oschina.net/username/cccc.git" target="_blank" rel="external">https://git.oschina.net/username/cccc.git</a> 你的远程仓库地址 // 和远程仓库进行关联</p></li><li>git push -u origin master //上传仓库到码云</li></ol><p>注意:刷新页面 后,如果是只上传了README文件,需要执行如下操作:<br>a. git add .  //添加工程目录下所有文件 (add 和 “.” 之间有空格)<br>b. git commit -m “添加注释信息”<br>c. git push -u origin master //推送要上传的文件</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Git 全局设置:&lt;/p&gt;
+&lt;p&gt;git config –global user.name “Natus”&lt;br&gt;git config –global user.email “937950943@qq.com”&lt;br&gt;创建 git 仓库:&lt;/p&gt;
+&lt;p&gt;mkdir mblo
+      
+    
+    </summary>
+    
+      <category term="Test" scheme="http://natus.info/categories/Test/"/>
+    
+    
+      <category term="terminal" scheme="http://natus.info/tags/terminal/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://natus.info/2017/03/23/hello-world/"/>
+    <id>http://natus.info/2017/03/23/hello-world/</id>
+    <published>2017-03-23T10:34:33.000Z</published>
+    <updated>2017-03-23T10:34:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>简单</title>
+    <link href="http://natus.info/2017/03/17/%E7%AE%80%E5%8D%95/"/>
+    <id>http://natus.info/2017/03/17/简单/</id>
+    <published>2017-03-16T16:00:00.000Z</published>
+    <updated>2017-03-27T13:17:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>#一.界面语义化 WebKit</p><h3 id="1-header元素定义文档的界面组合-通常是一些引导和导航信息"><a href="#1-header元素定义文档的界面组合-通常是一些引导和导航信息" class="headerlink" title="1. header元素定义文档的界面组合,通常是一些引导和导航信息"></a>1. header元素定义文档的界面组合,通常是一些引导和导航信息</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&lt;header&gt;</div><div class="line">　　　　&lt;h1&gt;11111&lt;/h1&gt;</div><div class="line">　　　　&lt;p&gt;123123&lt;/p&gt;</div><div class="line">&lt;/header&gt;</div><div class="line">&lt;div class = &quot;header&quot;&gt;</div><div class="line">　　　　&lt;h1&gt;11111&lt;/h1&gt;</div><div class="line">　　　　&lt;p&gt;123123&lt;/p&gt;</div><div class="line">&lt;/div&gt;</div></pre></td></tr></table></figure><h3 id="2-footer-元素定义文档或章节的末尾部分-通常包含一些章节的基本信息-如作者信息、相关链接及版权信息。"><a href="#2-footer-元素定义文档或章节的末尾部分-通常包含一些章节的基本信息-如作者信息、相关链接及版权信息。" class="headerlink" title="2.footer 元素定义文档或章节的末尾部分,通常包含一些章节的基本信息,如作者信息、相关链接及版权信息。"></a>2.footer 元素定义文档或章节的末尾部分,通常包含一些章节的基本信息,如作者信息、相关链接及版权信息。</h3><h3 id="3-nav-元素定义用来构建导航-显示导航链接。例如在页脚显示一个站点的导航链接"><a href="#3-nav-元素定义用来构建导航-显示导航链接。例如在页脚显示一个站点的导航链接" class="headerlink" title="3.nav 元素定义用来构建导航,显示导航链接。例如在页脚显示一个站点的导航链接"></a>3.nav 元素定义用来构建导航,显示导航链接。例如在页脚显示一个站点的导航链接</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&lt;footer&gt;</div><div class="line">　＜nav＞</div><div class="line">　&lt;ul&gt;</div><div class="line">　&lt;li&gt;&lt;a href=&quot;/privacy.html&quot;&gt;隐私信息&lt;/a&gt;&lt;/li&gt;</div><div class="line">　&lt;li&gt;&lt;a href=&quot;/copyright.html&quot;&gt;版权信息&lt;/a&gt;&lt;/li&gt;</div><div class="line">　&lt;/ul&gt;</div><div class="line">　&lt;/nav&gt;</div><div class="line">&lt;/footer&gt;</div></pre></td></tr></table></figure><h3 id="4-aside-元素定义一个界面的区域-用来表示包含和界面相关的主要内容-主要是装载非正文类的内容。"><a href="#4-aside-元素定义一个界面的区域-用来表示包含和界面相关的主要内容-主要是装载非正文类的内容。" class="headerlink" title="4.aside 元素定义一个界面的区域,用来表示包含和界面相关的主要内容,主要是装载非正文类的内容。"></a>4.aside 元素定义一个界面的区域,用来表示包含和界面相关的主要内容,主要是装载非正文类的内容。</h3><p><img src="media/14841899658028/A8798E95-EAA6-4304-8FB0-8FAC32A6312A.png" alt="A8798E95-EAA6-4304-8FB0-8FAC32A6312A"></p><h3 id="5-article-元素表示文档、界面-用来显示一块独立的文章内容-如博客、新闻等。article标签是可以相互嵌套的。"><a href="#5-article-元素表示文档、界面-用来显示一块独立的文章内容-如博客、新闻等。article标签是可以相互嵌套的。" class="headerlink" title="5.article 元素表示文档、界面,用来显示一块独立的文章内容,如博客、新闻等。article标签是可以相互嵌套的。"></a>5.article 元素表示文档、界面,用来显示一块独立的文章内容,如博客、新闻等。article标签是可以相互嵌套的。</h3><p><img src="media/14841899658028/8FC5CD0C-BE31-476B-BB5F-4BEA01EF2C41.png" alt="8FC5CD0C-BE31-476B-BB5F-4BEA01EF2"></p><h3 id="6-section-元素定义为文档中的节-比如章节、页眉、页脚或文档中的其他部分"><a href="#6-section-元素定义为文档中的节-比如章节、页眉、页脚或文档中的其他部分" class="headerlink" title="6.section 元素定义为文档中的节,比如章节、页眉、页脚或文档中的其他部分"></a>6.section 元素定义为文档中的节,比如章节、页眉、页脚或文档中的其他部分</h3><p><img src="media/14841899658028/54D015EB-FC78-4D78-B602-2CA0E2741B9C.png" alt="54D015EB-FC78-4D78-B602-2CA0E2741B9"></p><h3 id="7-hgroup-定义为对网页或区段的标题元素进行组合-通常用h1-h6进行分组"><a href="#7-hgroup-定义为对网页或区段的标题元素进行组合-通常用h1-h6进行分组" class="headerlink" title="7 hgroup 定义为对网页或区段的标题元素进行组合,通常用h1~h6进行分组"></a>7 hgroup 定义为对网页或区段的标题元素进行组合,通常用h1~h6进行分组</h3><!--![7046A4BD-773B-4FF6-BC14-013AD0330799](media/14841899658028/7046A4BD-773B-4FF6-BC14-013AD0330799.png)--><h3 id="更多"><a href="#更多" class="headerlink" title="更多"></a>更多</h3><p>audio:定义音频内容<br>canvas:定义画布功能<br>command:定义一个命令按钮<br>datalist:定义一个下拉列表<br>details:定义一个元素的详细内容<br>dialog:定义一个对话框<br>keygen:定义表单里一个声称的键值<br>mark:定义有标记的文本<br>output:定义一些输出类型<br>progress:定义任务的过程<br>source:定义媒体资源<br>video:定义一个视频内容</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#一.界面语义化 WebKit&lt;/p&gt;
+&lt;h3 id=&quot;1-header元素定义文档的界面组合-通常是一些引导和导航信息&quot;&gt;&lt;a href=&quot;#1-header元素定义文档的界面组合-通常是一些引导和导航信息&quot; class=&quot;headerlink&quot; title=&quot;1. he
+      
+    
+    </summary>
+    
+      <category term="Test" scheme="http://natus.info/categories/Test/"/>
+    
+    
+      <category term="Test" scheme="http://natus.info/tags/Test/"/>
+    
+      <category term="Hexo" scheme="http://natus.info/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
