@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://natus.info/"/>
-  <updated>2017-12-17T11:19:52.688Z</updated>
+  <updated>2017-12-17T13:10:33.805Z</updated>
   <id>http://natus.info/</id>
   
   <author>
@@ -17,56 +17,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="http://natus.info/2017/12/17/test/"/>
-    <id>http://natus.info/2017/12/17/test/</id>
-    <published>2017-12-17T11:19:52.000Z</published>
-    <updated>2017-12-17T11:19:52.688Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>一些小点</title>
-    <link href="http://natus.info/2017/03/25/%E4%BA%8C.%E4%B8%80%E4%BA%9B%E5%B0%8F%E7%82%B9/"/>
-    <id>http://natus.info/2017/03/25/二.一些小点/</id>
-    <published>2017-03-25T08:14:14.000Z</published>
-    <updated>2017-03-29T03:42:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="二-一些小点"><a href="#二-一些小点" class="headerlink" title="二.一些小点"></a>二.一些小点</h1><h2 id="1-文本输入框"><a href="#1-文本输入框" class="headerlink" title="1.文本输入框"></a>1.文本输入框</h2><blockquote><p>文本输入框</p><p><input type="text" required placeholder="你所想要输入的文本框"><br>用户不填写输入框就无法提交表单<br>required属性在Safari浏览器不起作用</p></blockquote><h2 id="2-单复选按钮"><a href="#2-单复选按钮" class="headerlink" title="2.单复选按钮"></a>2.单复选按钮</h2><blockquote><p>radio 单选按钮<br>checkbox 复选按钮</p></blockquote><h2 id="3-div元素"><a href="#3-div元素" class="headerlink" title="3.div元素"></a>3.div元素</h2><blockquote><p>division(层)元素,是一个盛装其他元素的通用容易<br>可以用CSS的继承关系把div上的CSS传递给它的所有子元素</p></blockquote><h2 id="4-id属性"><a href="#4-id属性" class="headerlink" title="4.id属性"></a>4.id属性</h2><p>id属性是唯一的,浏览器不强制唯一,不要给一个以上的元素设置向相同的id属性<br><strong>注意：在你的 style 元素内部，定义类选择器必须添加 . 为前缀，定义ID选择器必须添加 # 为前缀。</strong></p><h2 id="5-布局元素"><a href="#5-布局元素" class="headerlink" title="5.布局元素"></a>5.布局元素</h2><blockquote><p>padding(内边距)、margin(外边距)、border(边框)</p><p>CSS 允许你使用 padding-top、padding-right、padding-bottom 和 padding-left来控制元素上右下左四个方向的 padding。</p><p>CSS 允许你使用 margin-top、margin-right、margin-bottom 和 margin-left 来控制元素上右下左四个方向的 margin。</p></blockquote><h2 id="6-CSS-body颜色代码"><a href="#6-CSS-body颜色代码" class="headerlink" title="6.CSS body颜色代码"></a>6.CSS body颜色代码</h2><blockquote><p>000000 #FFFFFF #FF0000</p></blockquote><h2 id="7-JavaScript字符串的不可变性"><a href="#7-JavaScript字符串的不可变性" class="headerlink" title="7.JavaScript字符串的不可变性"></a>7.JavaScript字符串的不可变性</h2><blockquote><p>var myStr=”Bob”;<br>myStr[0]=”J”;<br>myStr不变<br>想要改变myStr的值,只能对它进行重新赋值</p></blockquote><h2 id="8-pop-shift-unshift函数"><a href="#8-pop-shift-unshift函数" class="headerlink" title="8. pop shift unshift函数"></a>8. pop shift unshift函数</h2><blockquote><p>移除数组元素</p></blockquote><h3 id="9-JavaScript的数据类型"><a href="#9-JavaScript的数据类型" class="headerlink" title="9 JavaScript的数据类型"></a>9 JavaScript的数据类型</h3><blockquote><p>原始类型（包含数字、字符串和bool） 和 对象类型（是属性的集合 每个属性由”名/值对” 组成）<br>两个特殊的原始值:null 和 undefined<br>javascript中所有数字均用浮点数值表示</p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;二-一些小点&quot;&gt;&lt;a href=&quot;#二-一些小点&quot; class=&quot;headerlink&quot; title=&quot;二.一些小点&quot;&gt;&lt;/a&gt;二.一些小点&lt;/h1&gt;&lt;h2 id=&quot;1-文本输入框&quot;&gt;&lt;a href=&quot;#1-文本输入框&quot; class=&quot;headerlink&quot; ti
-      
-    
-    </summary>
-    
-      <category term="Java" scheme="http://natus.info/categories/Java/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Emmet</title>
     <link href="http://natus.info/2017/03/24/Emmet%20%E6%95%99%E7%A8%8B/"/>
     <id>http://natus.info/2017/03/24/Emmet 教程/</id>
     <published>2017-03-24T08:16:00.000Z</published>
-    <updated>2017-03-24T08:48:46.000Z</updated>
+    <updated>2017-12-17T13:10:33.805Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Emmet-教程"><a href="#Emmet-教程" class="headerlink" title="Emmet 教程"></a>Emmet 教程</h1><p><a href="http://www.iteye.com/news/27580" target="_blank" rel="external">Emmet教程</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Emmet-教程"><a href="#Emmet-教程" class="headerlink" title="Emmet 教程"></a><center>Emmet 教程</center></h1><center><a href="http://www.iteye.com/news/27580" target="_blank" rel="external">Emmet教程</a></center>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;Emmet-教程&quot;&gt;&lt;a href=&quot;#Emmet-教程&quot; class=&quot;headerlink&quot; title=&quot;Emmet 教程&quot;&gt;&lt;/a&gt;Emmet 教程&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://www.iteye.com/news/27580&quot; targ
+        &lt;h1 id=&quot;Emmet-教程&quot;&gt;&lt;a href=&quot;#Emmet-教程&quot; class=&quot;headerlink&quot; title=&quot;Emmet 教程&quot;&gt;&lt;/a&gt;&lt;center&gt;Emmet 教程&lt;/center&gt;&lt;/h1&gt;&lt;center&gt;&lt;a href=&quot;http://www.itey
       
     
     </summary>

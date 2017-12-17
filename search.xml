@@ -3,20 +3,6 @@
   
     
     <entry>
-      <title><![CDATA[test]]></title>
-      <url>%2F2017%2F12%2F17%2Ftest%2F</url>
-      <content type="text"></content>
-    </entry>
-
-    
-    <entry>
-      <title><![CDATA[一些小点]]></title>
-      <url>%2F2017%2F03%2F25%2F%E4%BA%8C.%E4%B8%80%E4%BA%9B%E5%B0%8F%E7%82%B9%2F</url>
-      <content type="text"><![CDATA[二.一些小点1.文本输入框 文本输入框 用户不填写输入框就无法提交表单required属性在Safari浏览器不起作用 2.单复选按钮 radio 单选按钮checkbox 复选按钮 3.div元素 division(层)元素,是一个盛装其他元素的通用容易可以用CSS的继承关系把div上的CSS传递给它的所有子元素 4.id属性id属性是唯一的,浏览器不强制唯一,不要给一个以上的元素设置向相同的id属性注意：在你的 style 元素内部，定义类选择器必须添加 . 为前缀，定义ID选择器必须添加 # 为前缀。 5.布局元素 padding(内边距)、margin(外边距)、border(边框) CSS 允许你使用 padding-top、padding-right、padding-bottom 和 padding-left来控制元素上右下左四个方向的 padding。 CSS 允许你使用 margin-top、margin-right、margin-bottom 和 margin-left 来控制元素上右下左四个方向的 margin。 6.CSS body颜色代码 000000 #FFFFFF #FF0000 7.JavaScript字符串的不可变性 var myStr=”Bob”;myStr[0]=”J”;myStr不变想要改变myStr的值,只能对它进行重新赋值 8. pop shift unshift函数 移除数组元素 9 JavaScript的数据类型 原始类型（包含数字、字符串和bool） 和 对象类型（是属性的集合 每个属性由”名/值对” 组成）两个特殊的原始值:null 和 undefinedjavascript中所有数字均用浮点数值表示]]></content>
-    </entry>
-
-    
-    <entry>
       <title><![CDATA[Emmet]]></title>
       <url>%2F2017%2F03%2F24%2FEmmet%20%E6%95%99%E7%A8%8B%2F</url>
       <content type="text"><![CDATA[Emmet 教程Emmet教程]]></content>
