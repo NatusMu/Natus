@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://natus.info/"/>
-  <updated>2017-12-17T13:10:33.805Z</updated>
+  <updated>2017-12-17T14:21:19.593Z</updated>
   <id>http://natus.info/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://natus.info/2017/03/24/Emmet%20%E6%95%99%E7%A8%8B/"/>
     <id>http://natus.info/2017/03/24/Emmet 教程/</id>
     <published>2017-03-24T08:16:00.000Z</published>
-    <updated>2017-12-17T13:10:33.805Z</updated>
+    <updated>2017-12-17T14:21:19.593Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Emmet-教程"><a href="#Emmet-教程" class="headerlink" title="Emmet 教程"></a><center>Emmet 教程</center></h1><center><a href="http://www.iteye.com/news/27580" target="_blank" rel="external">Emmet教程</a></center>]]></content>
+    <content type="html"><![CDATA[<h1 id="Emmet-教程"><a href="#Emmet-教程" class="headerlink" title="Emmet 教程"></a><center>Emmet 教程</center></h1><center><a href="http://www.iteye.com/news/27580" target="_blank" rel="external">Emmet教程</a></center><!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --><p><blockquote class="blockquote-center">优秀的人，不是不合群，而是他们合群的人里面没有你</blockquote><br><!-- 标签 方式，要求版本在0.4.5或以上 --><br><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="/image-url" class="full-image" alt="alt" title="title"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><br><!-- 别名 --><br><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="/image-url" class="full-image" alt="alt" title="title"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span></p>]]></content>
     
     <summary type="html">
     
