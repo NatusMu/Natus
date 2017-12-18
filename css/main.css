@@ -2043,7 +2043,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #eb1203;
+  background: #ff4633;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3291,10 +3291,9 @@ body {
   color: #fff9dc;
 }
 .sidebar {
-  background: url("/images/background/fox.jpg");
+  background: url("/images/background/saber2.png");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 .sidebar p,
 .sidebar span,
