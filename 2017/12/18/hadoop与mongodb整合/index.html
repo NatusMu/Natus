@@ -75,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="Emmet,JavaScript," />
+  <meta name="keywords" content="hadoop,mongodb," />
 
 
 
@@ -88,28 +88,19 @@
 
 
 
-<meta name="description" content="Emmet 教程Emmet教程
-
-
-优秀的人，不是不合群，而是他们合群的人里面没有你">
+<meta name="description" content="MongoDB Connector for Hadoop
+1.思考最近在写的一个项目是需要使用Hadoop平台，搭一个分布式mongodb数据库(可能会用为分布式...单机)，首先我考虑到的问题就是如何把数据从">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Emmet">
-<meta property="og:url" content="http://natus.info:8000/2017/03/24/Emmet 教程/index.html">
+<meta property="og:title" content="hadoop与mongodb整合">
+<meta property="og:url" content="http://natus.info:8000/2017/12/18/hadoop与mongodb整合/index.html">
 <meta property="og:site_name" content="Natus">
-<meta property="og:description" content="Emmet 教程Emmet教程
-
-
-优秀的人，不是不合群，而是他们合群的人里面没有你">
-<meta property="og:image" content="http://natus.info:8000/image-url">
-<meta property="og:image" content="http://natus.info:8000/image-url">
-<meta property="og:updated_time" content="2017-12-17T14:21:19.593Z">
+<meta property="og:description" content="MongoDB Connector for Hadoop
+1.思考最近在写的一个项目是需要使用Hadoop平台，搭一个分布式mongodb数据库(可能会用为分布式...单机)，首先我考虑到的问题就是如何把数据从">
+<meta property="og:updated_time" content="2017-12-18T11:19:56.896Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Emmet">
-<meta name="twitter:description" content="Emmet 教程Emmet教程
-
-
-优秀的人，不是不合群，而是他们合群的人里面没有你">
-<meta name="twitter:image" content="http://natus.info:8000/image-url">
+<meta name="twitter:title" content="hadoop与mongodb整合">
+<meta name="twitter:description" content="MongoDB Connector for Hadoop
+1.思考最近在写的一个项目是需要使用Hadoop平台，搭一个分布式mongodb数据库(可能会用为分布式...单机)，首先我考虑到的问题就是如何把数据从">
 
 
 
@@ -139,13 +130,13 @@
 
 
 
-  <link rel="canonical" href="http://natus.info:8000/2017/03/24/Emmet 教程/"/>
+  <link rel="canonical" href="http://natus.info:8000/2017/12/18/hadoop与mongodb整合/"/>
 
 
 
 
 
-  <title>Emmet | Natus</title>
+  <title>hadoop与mongodb整合 | Natus</title>
   
 
 
@@ -320,7 +311,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://natus.info:8000/2017/03/24/Emmet 教程/">
+    <link itemprop="mainEntityOfPage" href="http://natus.info:8000/2017/12/18/hadoop与mongodb整合/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Hm.">
@@ -337,7 +328,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Emmet</h1>
+          <h1 class="post-title" itemprop="name headline">hadoop与mongodb整合</h1>
         
 
         <div class="post-meta">
@@ -349,8 +340,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-03-24T16:16:00+08:00">
-                2017-03-24
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-18T18:10:38+08:00">
+                2017-12-18
               </time>
             
 
@@ -360,6 +351,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/数据库/" itemprop="url" rel="index">
+                    <span itemprop="name">数据库</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -368,9 +381,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2017/03/24/Emmet 教程/#comments" itemprop="discussionUrl">
+                <a href="/2017/12/18/hadoop与mongodb整合/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2017/03/24/Emmet 教程/" itemprop="commentCount"></span>
+                        data-disqus-identifier="2017/12/18/hadoop与mongodb整合/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -392,7 +405,7 @@
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  28
+                  61
                 </span>
               
 
@@ -429,11 +442,9 @@
       
 
       
-        <h1 id="Emmet-教程"><a href="#Emmet-教程" class="headerlink" title="Emmet 教程"></a><center>Emmet 教程</center></h1><center><a href="http://www.iteye.com/news/27580" target="_blank" rel="external">Emmet教程</a></center>
-
-<!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 -->
-<p><blockquote class="blockquote-center">优秀的人，不是不合群，而是他们合群的人里面没有你</blockquote><br><!-- 标签 方式，要求版本在0.4.5或以上 --><br><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="/image-url" class="full-image" alt="alt" title="title"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><br><!-- 别名 --><br><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="/image-url" class="full-image" alt="alt" title="title"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span></p>
-
+        <p><a href="https://github.com/mongodb/mongo-hadoop/" target="_blank" rel="external">MongoDB Connector for Hadoop</a></p>
+<h2 id="1-思考"><a href="#1-思考" class="headerlink" title="1.思考"></a>1.思考</h2><pre><code>最近在写的一个项目是需要使用Hadoop平台，搭一个分布式mongodb数据库(可能会用为分布式...单机)，首先我考虑到的问题就是如何把数据从
+</code></pre>
       
     </div>
     
@@ -474,9 +485,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Emmet/" rel="tag"><i class="fa fa-tag"></i> Emmet</a>
+            <a href="/tags/hadoop/" rel="tag"><i class="fa fa-tag"></i> hadoop</a>
           
-            <a href="/tags/JavaScript/" rel="tag"><i class="fa fa-tag"></i> JavaScript</a>
+            <a href="/tags/mongodb/" rel="tag"><i class="fa fa-tag"></i> mongodb</a>
           
         </div>
       
@@ -489,8 +500,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/03/24/简单的命令行入门/" rel="next" title="简单的命令行入门">
-                <i class="fa fa-chevron-left"></i> 简单的命令行入门
+              <a href="/2017/12/18/相似项/" rel="next" title="相似项">
+                <i class="fa fa-chevron-left"></i> 相似项
               </a>
             
           </div>
@@ -498,10 +509,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/12/18/相似项/" rel="prev" title="相似项">
-                相似项 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -708,7 +715,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Emmet-教程"><span class="nav-number">1.</span> <span class="nav-text">Emmet 教程</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-思考"><span class="nav-number">1.</span> <span class="nav-text">1.思考</span></a></li></ol></div>
             
 
           </div>
@@ -873,9 +880,9 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'http://natus.info:8000/2017/03/24/Emmet 教程/';
-          this.page.identifier = '2017/03/24/Emmet 教程/';
-          this.page.title = 'Emmet';
+          this.page.url = 'http://natus.info:8000/2017/12/18/hadoop与mongodb整合/';
+          this.page.identifier = '2017/12/18/hadoop与mongodb整合/';
+          this.page.title = 'hadoop与mongodb整合';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://natus-info.disqus.com/embed.js';

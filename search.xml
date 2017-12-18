@@ -3,6 +3,13 @@
   
     
     <entry>
+      <title><![CDATA[hadoop与mongodb整合]]></title>
+      <url>%2F2017%2F12%2F18%2Fhadoop%E4%B8%8Emongodb%E6%95%B4%E5%90%88%2F</url>
+      <content type="text"><![CDATA[MongoDB Connector for Hadoop 1.思考最近在写的一个项目是需要使用Hadoop平台，搭一个分布式mongodb数据库(可能会用为分布式...单机)，首先我考虑到的问题就是如何把数据从]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[相似项]]></title>
       <url>%2F2017%2F12%2F18%2F%E7%9B%B8%E4%BC%BC%E9%A1%B9%2F</url>
       <content type="text"></content>
