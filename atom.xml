@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://natus.info/"/>
-  <updated>2017-12-17T14:21:19.593Z</updated>
-  <id>http://natus.info/</id>
+  <link href="http://natus.info:8000/"/>
+  <updated>2017-12-18T08:42:48.333Z</updated>
+  <id>http://natus.info:8000/</id>
   
   <author>
     <name>Hm.</name>
@@ -17,9 +17,23 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>相似项</title>
+    <link href="http://natus.info:8000/2017/12/18/%E7%9B%B8%E4%BC%BC%E9%A1%B9/"/>
+    <id>http://natus.info:8000/2017/12/18/相似项/</id>
+    <published>2017-12-18T08:42:48.000Z</published>
+    <updated>2017-12-18T08:42:48.333Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Emmet</title>
-    <link href="http://natus.info/2017/03/24/Emmet%20%E6%95%99%E7%A8%8B/"/>
-    <id>http://natus.info/2017/03/24/Emmet 教程/</id>
+    <link href="http://natus.info:8000/2017/03/24/Emmet%20%E6%95%99%E7%A8%8B/"/>
+    <id>http://natus.info:8000/2017/03/24/Emmet 教程/</id>
     <published>2017-03-24T08:16:00.000Z</published>
     <updated>2017-12-17T14:21:19.593Z</updated>
     
@@ -35,16 +49,16 @@
     </summary>
     
     
-      <category term="Emmet" scheme="http://natus.info/tags/Emmet/"/>
+      <category term="Emmet" scheme="http://natus.info:8000/tags/Emmet/"/>
     
-      <category term="JavaScript" scheme="http://natus.info/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="http://natus.info:8000/tags/JavaScript/"/>
     
   </entry>
   
   <entry>
     <title>简单的命令行入门</title>
-    <link href="http://natus.info/2017/03/24/%E7%AE%80%E5%8D%95%E7%9A%84%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%85%A5%E9%97%A8/"/>
-    <id>http://natus.info/2017/03/24/简单的命令行入门/</id>
+    <link href="http://natus.info:8000/2017/03/24/%E7%AE%80%E5%8D%95%E7%9A%84%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%85%A5%E9%97%A8/"/>
+    <id>http://natus.info:8000/2017/03/24/简单的命令行入门/</id>
     <published>2017-03-24T06:02:50.000Z</published>
     <updated>2017-03-24T08:18:15.000Z</updated>
     
@@ -61,17 +75,17 @@
     
     </summary>
     
-      <category term="Test" scheme="http://natus.info/categories/Test/"/>
+      <category term="Test" scheme="http://natus.info:8000/categories/Test/"/>
     
     
-      <category term="terminal" scheme="http://natus.info/tags/terminal/"/>
+      <category term="terminal" scheme="http://natus.info:8000/tags/terminal/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://natus.info/2017/03/23/hello-world/"/>
-    <id>http://natus.info/2017/03/23/hello-world/</id>
+    <link href="http://natus.info:8000/2017/03/23/hello-world/"/>
+    <id>http://natus.info:8000/2017/03/23/hello-world/</id>
     <published>2017-03-23T10:34:33.000Z</published>
     <updated>2017-03-23T10:34:33.000Z</updated>
     
@@ -91,8 +105,8 @@
   
   <entry>
     <title>简单</title>
-    <link href="http://natus.info/2017/03/17/%E7%AE%80%E5%8D%95/"/>
-    <id>http://natus.info/2017/03/17/简单/</id>
+    <link href="http://natus.info:8000/2017/03/17/%E7%AE%80%E5%8D%95/"/>
+    <id>http://natus.info:8000/2017/03/17/简单/</id>
     <published>2017-03-16T16:00:00.000Z</published>
     <updated>2017-03-27T13:17:28.000Z</updated>
     
@@ -108,12 +122,12 @@
     
     </summary>
     
-      <category term="Test" scheme="http://natus.info/categories/Test/"/>
+      <category term="Test" scheme="http://natus.info:8000/categories/Test/"/>
     
     
-      <category term="Test" scheme="http://natus.info/tags/Test/"/>
+      <category term="Test" scheme="http://natus.info:8000/tags/Test/"/>
     
-      <category term="Hexo" scheme="http://natus.info/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://natus.info:8000/tags/Hexo/"/>
     
   </entry>
   
