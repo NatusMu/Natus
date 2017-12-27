@@ -75,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="hadoop," />
+  <meta name="keywords" content="api," />
 
 
 
@@ -88,16 +88,52 @@
 
 
 
-<meta name="description" content="孤鸿寄语">
+<meta name="description" content="API 设计规范参考
+RESTful API 设计指南
+腾讯imweb团队API规范
+
+域名https://api.example.com or https://example.com/api/
+
+使用https协议？
+
+Url 规范
+小写字母,不要用大写
+单词间使用下划线’_’
+不使用动词，资源要使用名词复数形式，如：user、rooms、tickets
+层级大于等于3时，用?参数users/1">
 <meta property="og:type" content="article">
-<meta property="og:title" content="相似项">
-<meta property="og:url" content="http://natus.info:8000/2017/12/18/相似项/index.html">
+<meta property="og:title" content="api-rules">
+<meta property="og:url" content="http://natus.info:8000/2017/12/20/api-rules/index.html">
 <meta property="og:site_name" content="Natus">
-<meta property="og:description" content="孤鸿寄语">
-<meta property="og:updated_time" content="2017-12-18T11:26:07.950Z">
+<meta property="og:description" content="API 设计规范参考
+RESTful API 设计指南
+腾讯imweb团队API规范
+
+域名https://api.example.com or https://example.com/api/
+
+使用https协议？
+
+Url 规范
+小写字母,不要用大写
+单词间使用下划线’_’
+不使用动词，资源要使用名词复数形式，如：user、rooms、tickets
+层级大于等于3时，用?参数users/1">
+<meta property="og:updated_time" content="2017-12-27T06:22:42.982Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="相似项">
-<meta name="twitter:description" content="孤鸿寄语">
+<meta name="twitter:title" content="api-rules">
+<meta name="twitter:description" content="API 设计规范参考
+RESTful API 设计指南
+腾讯imweb团队API规范
+
+域名https://api.example.com or https://example.com/api/
+
+使用https协议？
+
+Url 规范
+小写字母,不要用大写
+单词间使用下划线’_’
+不使用动词，资源要使用名词复数形式，如：user、rooms、tickets
+层级大于等于3时，用?参数users/1">
 
 
 
@@ -127,13 +163,13 @@
 
 
 
-  <link rel="canonical" href="http://natus.info:8000/2017/12/18/相似项/"/>
+  <link rel="canonical" href="http://natus.info:8000/2017/12/20/api-rules/"/>
 
 
 
 
 
-  <title>相似项 | Natus</title>
+  <title>api-rules | Natus</title>
   
 
 
@@ -308,7 +344,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://natus.info:8000/2017/12/18/相似项/">
+    <link itemprop="mainEntityOfPage" href="http://natus.info:8000/2017/12/20/api-rules/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Hm.">
@@ -325,7 +361,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">相似项</h1>
+          <h1 class="post-title" itemprop="name headline">api-rules</h1>
         
 
         <div class="post-meta">
@@ -337,8 +373,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-18T16:42:48+08:00">
-                2017-12-18
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-20T15:09:19+08:00">
+                2017-12-20
               </time>
             
 
@@ -360,8 +396,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/hadoop/" itemprop="url" rel="index">
-                    <span itemprop="name">hadoop</span>
+                  <a href="/categories/api/" itemprop="url" rel="index">
+                    <span itemprop="name">api</span>
                   </a>
                 </span>
 
@@ -378,9 +414,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2017/12/18/相似项/#comments" itemprop="discussionUrl">
+                <a href="/2017/12/20/api-rules/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2017/12/18/相似项/" itemprop="commentCount"></span>
+                        data-disqus-identifier="2017/12/20/api-rules/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -402,7 +438,7 @@
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  0
+                  1,047
                 </span>
               
 
@@ -418,7 +454,7 @@
                   <span class="post-meta-item-text">Reading time &asymp;</span>
                 
                 <span title="Reading time">
-                  1
+                  4
                 </span>
               
             </div>
@@ -439,7 +475,58 @@
       
 
       
-        
+        <h1 id="API-设计规范"><a href="#API-设计规范" class="headerlink" title="API 设计规范"></a>API 设计规范</h1><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><blockquote>
+<p><a href="http://www.ruanyifeng.com/blog/2014/05/restful_api.html" target="_blank" rel="external">RESTful API 设计指南</a></p>
+<p><a href="http://imweb.io/topic/5707561f06f2400432c139a5" target="_blank" rel="external">腾讯imweb团队API规范</a></p>
+</blockquote>
+<h2 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h2><p><code>https://api.example.com</code> or <code>https://example.com/api/</code><br><i class="fa fa-pencil-square"></i></p>
+<blockquote>
+<p>使用https协议？</p>
+</blockquote>
+<h2 id="Url-规范"><a href="#Url-规范" class="headerlink" title="Url 规范"></a>Url 规范</h2><ul>
+<li>小写字母,不要用大写</li>
+<li>单词间使用下划线’_’</li>
+<li>不使用动词，资源要使用名词复数形式，如：user、rooms、tickets</li>
+<li>层级大于等于3时，用<code>?</code>参数<br><code>users/1/address/2/citys (bad)</code><br><code>/citys?users=1&amp;address=2; (good)</code></li>
+</ul>
+<h2 id="Url-即资源"><a href="#Url-即资源" class="headerlink" title="Url 即资源"></a>Url 即资源</h2><p>在RESTful架构中，每个网址代表一种资源（resource），所以网址中 <strong>不能有动词</strong>，只能有名词，而且所用的名词往往与数据库的表格名对应。<br>一般来说，数据库中的表都是同种记录的”集合”（collection），所以API中的名词也应该使用复数。</p>
+<p><del>GET /getAllResources</del> (bad)<br><del>GET /createNewResources</del> (bad)<br><del>GET /deleteAllResources</del> (bad)</p>
+<p>GET /users/:id (good)<br>POST /users (good)<br>DELETE /users/:id (good)</p>
+<h2 id="HTTP-动词"><a href="#HTTP-动词" class="headerlink" title="HTTP 动词"></a>HTTP 动词</h2><p>GET 从服务器取资源<br>POST 在服务器新建资源<br>PUT 在服务器更新资源（客户端提供完整资源）<br>PATCH 在服务器更新资源（客户端提供部分属性）<br>DELETE 从服务器删除资源</p>
+<h2 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h2><p>?limit=10：指定返回记录的数量<br>?offset=10：指定返回记录的开始位置。<br>?curr=2&amp;per=100：指定第几页，以及每页的记录数。<br>?sort=age: 排序</p>
+<h2 id="返回数据"><a href="#返回数据" class="headerlink" title="返回数据"></a>返回数据</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 数据模板</span></div><div class="line">&#123;</div><div class="line">  <span class="string">"code"</span>: <span class="number">0</span>,</div><div class="line">  <span class="string">"data"</span>: &#123;&#125;,</div><div class="line">  <span class="string">"page"</span>: &#123;</div><div class="line">    <span class="string">"totalpage"</span>: <span class="string">"value"</span>, <span class="comment">// 总页数</span></div><div class="line">    <span class="string">"per"</span>:<span class="string">"value"</span>,    <span class="comment">// 每页记录条数</span></div><div class="line">    <span class="string">"curr"</span>: <span class="string">"value"</span>,    <span class="comment">// 本页页码</span></div><div class="line">    <span class="string">"totalcount"</span>: <span class="string">"value"</span> <span class="comment">// 总记录数</span></div><div class="line">  &#125;,</div><div class="line">  <span class="string">"msg"</span>: <span class="string">''</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>page 属性写在data里更合适？</p>
+</blockquote>
+<p>code: 接口的执行的状态</p>
+<p>data: 接口的主数据</p>
+<p>page: 当有后端分页时，返回此属性</p>
+<p>msg: 当status!=0 都应该有错误信息</p>
+<h2 id="常见状态码"><a href="#常见状态码" class="headerlink" title="*常见状态码"></a>*常见状态码</h2><ul>
+<li>200 OK - [GET]：服务器成功返回用户请求的数据，该操作是幂等的（Idempotent）。</li>
+<li>201 CREATED - [POST/PUT/PATCH]：用户新建或修改数据成功。</li>
+<li>202 Accepted - [*]：表示一个请求已经进入后台排队（异步任务）</li>
+<li>204 NO CONTENT - [DELETE]：用户删除数据成功。</li>
+<li>400 INVALID REQUEST - [POST/PUT/PATCH]：用户发出的请求有错误，服务器没有进行新建或修改数据的操作，该操作是幂等的。</li>
+<li>401 Unauthorized - [*]：表示用户没有权限（令牌、用户名、密码错误）。</li>
+<li>403 Forbidden - [*] 表示用户得到授权（与401错误相对），但是访问是被禁止的。</li>
+<li>404 NOT FOUND - [*]：用户发出的请求针对的是不存在的记录，服务器没有进行操作，该操作是幂等的。</li>
+<li>406 Not Acceptable - [GET]：用户请求的格式不可得（比如用户请求JSON格式，但是只有XML格式）。</li>
+<li>410 Gone -[GET]：用户请求的资源被永久删除，且不会再得到的。</li>
+<li>422 Unprocesable entity - [POST/PUT/PATCH] 当创建一个对象时，发生一个验证错误。</li>
+<li>500 INTERNAL SERVER ERROR - [*]：服务器发生错误，用户将无法判断发出的请求是否成功。</li>
+</ul>
+<h2 id="实战例子"><a href="#实战例子" class="headerlink" title="实战例子"></a>实战例子</h2><h3 id="登录-amp-注册相关"><a href="#登录-amp-注册相关" class="headerlink" title="登录&amp;注册相关"></a>登录&amp;注册相关</h3><p>登入/登出对应的服务端资源应该是session，所以相关api应该如下：</p>
+<p>GET /session # 获取会话信息<br>POST /session # 创建新的会话（登入）<br>PUT /session # 更新会话信息<br>DELETE /session # 销毁当前会话（登出）</p>
+<p>注册对应的资源是user，api如下：</p>
+<p>GET /users/:id # 获取id用户的信息<br>POST /users # 创建新的用户（注册）<br>PUT /users/:id # 更新id用户的信息<br>DELETE /users/:id # 删除id用户</p>
+<h3 id="验证码相关"><a href="#验证码相关" class="headerlink" title="验证码相关"></a>验证码相关</h3><p>GET /captcha?tel=value # 获取验证码<br>PATCH /catcha?code=value # 进行验证</p>
+<h3 id="过滤信息"><a href="#过滤信息" class="headerlink" title="过滤信息"></a>过滤信息</h3><p>?limit=10：指定返回记录的数量<br>?offset=10：指定返回记录的开始位置。<br>?page=2&amp;per_page=100：指定第几页，以及每页的记录数。<br>?sortby=name&amp;order=asc：指定返回结果按照哪个属性排序，以及排序顺序。<br>?animal_type_id=1：指定筛选条件</p>
+<p>###返回结果</p>
+<p>GET /collection：返回资源对象的列表（数组）<br>GET /collection/resource：返回单个资源对象<br>POST /collection：返回新生成的资源对象<br>PUT /collection/resource：返回完整的资源对象<br>PATCH /collection/resource：返回完整的资源对象<br>DELETE /collection/resource：返回一个空文档</p>
+<h2 id="各层之间约束"><a href="#各层之间约束" class="headerlink" title="各层之间约束"></a>各层之间约束</h2><p>###Application层约束</p>
+<p>1-list :list batch data<br>2-count :count the result count of query<br>3-show : show a record<br>4-create : insert a record<br>5-update :update a record<br>6-delete :delete a record</p>
+
       
     </div>
     
@@ -480,7 +567,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/hadoop/" rel="tag"><i class="fa fa-tag"></i> hadoop</a>
+            <a href="/tags/api/" rel="tag"><i class="fa fa-tag"></i> api</a>
           
         </div>
       
@@ -493,8 +580,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/03/24/Emmet 教程/" rel="next" title="Emmet">
-                <i class="fa fa-chevron-left"></i> Emmet
+              <a href="/2017/12/19/ssm整合框架初解/" rel="next" title="ssm整合框架初解">
+                <i class="fa fa-chevron-left"></i> ssm整合框架初解
               </a>
             
           </div>
@@ -502,10 +589,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/12/18/hadoop与mongodb整合/" rel="prev" title="hadoop与mongodb整合">
-                hadoop与mongodb整合 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -567,8 +650,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -693,6 +785,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#API-设计规范"><span class="nav-number">1.</span> <span class="nav-text">API 设计规范</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#参考"><span class="nav-number">1.1.</span> <span class="nav-text">参考</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#域名"><span class="nav-number">1.2.</span> <span class="nav-text">域名</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Url-规范"><span class="nav-number">1.3.</span> <span class="nav-text">Url 规范</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Url-即资源"><span class="nav-number">1.4.</span> <span class="nav-text">Url 即资源</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HTTP-动词"><span class="nav-number">1.5.</span> <span class="nav-text">HTTP 动词</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#filter"><span class="nav-number">1.6.</span> <span class="nav-text">filter</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#返回数据"><span class="nav-number">1.7.</span> <span class="nav-text">返回数据</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#常见状态码"><span class="nav-number">1.8.</span> <span class="nav-text">*常见状态码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#实战例子"><span class="nav-number">1.9.</span> <span class="nav-text">实战例子</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#登录-amp-注册相关"><span class="nav-number">1.9.1.</span> <span class="nav-text">登录&注册相关</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#验证码相关"><span class="nav-number">1.9.2.</span> <span class="nav-text">验证码相关</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#过滤信息"><span class="nav-number">1.9.3.</span> <span class="nav-text">过滤信息</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#各层之间约束"><span class="nav-number">1.10.</span> <span class="nav-text">各层之间约束</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -852,9 +960,9 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'http://natus.info:8000/2017/12/18/相似项/';
-          this.page.identifier = '2017/12/18/相似项/';
-          this.page.title = '相似项';
+          this.page.url = 'http://natus.info:8000/2017/12/20/api-rules/';
+          this.page.identifier = '2017/12/20/api-rules/';
+          this.page.title = 'api-rules';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://natus-info.disqus.com/embed.js';
