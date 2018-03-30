@@ -101,34 +101,6 @@
   </entry>
   
   <entry>
-    <title>hadoop与mongodb整合</title>
-    <link href="http://natus.info:8000/2017/12/18/hadoop%E4%B8%8Emongodb%E6%95%B4%E5%90%88/"/>
-    <id>http://natus.info:8000/2017/12/18/hadoop与mongodb整合/</id>
-    <published>2017-12-18T10:10:38.000Z</published>
-    <updated>2017-12-18T11:19:56.896Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://github.com/mongodb/mongo-hadoop/" target="_blank" rel="external">MongoDB Connector for Hadoop</a></p><h2 id="1-思考"><a href="#1-思考" class="headerlink" title="1.思考"></a>1.思考</h2><pre><code>最近在写的一个项目是需要使用Hadoop平台，搭一个分布式mongodb数据库(可能会用为分布式...单机)，首先我考虑到的问题就是如何把数据从</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;a href=&quot;https://github.com/mongodb/mongo-hadoop/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MongoDB Connector for Hadoop&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;1-思考&quot;&gt;&lt;a h
-      
-    
-    </summary>
-    
-      <category term="数据库" scheme="http://natus.info:8000/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    
-      <category term="hadoop" scheme="http://natus.info:8000/tags/hadoop/"/>
-    
-      <category term="mongodb" scheme="http://natus.info:8000/tags/mongodb/"/>
-    
-  </entry>
-  
-  <entry>
     <title>相似项</title>
     <link href="http://natus.info:8000/2017/12/18/%E7%9B%B8%E4%BC%BC%E9%A1%B9/"/>
     <id>http://natus.info:8000/2017/12/18/相似项/</id>
